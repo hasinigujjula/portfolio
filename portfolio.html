@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gujjula Hasini | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: #ffffff;
+      color: #333333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2575fc;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .about-container img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #2575fc;
+      margin-bottom: 1.5rem;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      justify-content: center;
+    }
+
+    .skill {
+      background: #e3f2fd;
+      color: #0d47a1;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+
+    .project, .education-entry {
+      background: #f9f9f9;
+      border-left: 5px solid #2196f3;
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    .contact-info p {
+      margin: 0.4rem 0;
+    }
+
+    .contact-info a {
+      text-decoration: none;
+      color: #0d47a1;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #e3f2fd;
+      color: #0d47a1;
+    }
+
+    @media (min-width: 768px) {
+      .about-container {
+        flex-direction: row;
+        text-align: left;
+        gap: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gujjula Hasini</h1>
+    <p>B.Tech IT | Graduating in 2027 | Web Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      
+      <p>
+        Hello! I'm <strong>Gujjula Hasini</strong>, a second-year B.Tech student specializing in Information Technology. I enjoy creating clean and user-friendly web experiences. My focus lies in building smart, secure, and functional digital products. Passionate about tech innovation and continuous learning, I aspire to contribute to meaningful projects and impactful solutions.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">C</div>
+      <div class="skill">Java</div>
+      <div class="skill">SQL</div>
+      <div class="skill">HTML</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Secure Smart Wallet (IoT Based)</h3>
+      <p>An IoT-based smart wallet designed for enhanced security and real-time tracking. Integrated with GPS and Bluetooth technology to ensure safety, convenience, and peace of mind.</p>
+      <p><strong>Technologies Used:</strong> Arduino, GPS Module, IoT Sensors, Bluetooth</p>
+    </div>
+
+    <div class="project">
+      <h3>Personal Portfolio Website</h3>
+      <p>A responsive and elegant portfolio website built using HTML and CSS. Designed to showcase my technical skills, educational background, and personal projects in a formal and visually appealing format.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+
+    <div class="education-entry">
+      <strong>B.Tech - Information Technology</strong><br/>
+      G Narayanamma Institute of Technology and Science<br/>
+      <em>CGPA: 8.5</em>
+    </div>
+
+    <div class="education-entry">
+      <strong>Intermediate - APBIE</strong><br/>
+      JVC College<br/>
+      <em>Percentage: 92.2%</em>
+    </div>
+
+    <div class="education-entry">
+      <strong>10th Grade - SSC</strong><br/>
+      Sri Chaitanya Techno School<br/>
+      <em>GPA: 10/10</em>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:hasinigujjula@gmail.com">hasinigujjula@gmail.com</a></p>
+      <p>Phone: <a href="tel:8639969399">8639969399</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com" target="_blank">linkedin.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gujjula Hasini | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
